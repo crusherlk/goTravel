@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Hind:300,regular,500,600,700);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --montserrat: "Montserrat", sans-serif;
+    --hind: "Hind", sans-serif;
+    --gtBlack: "#0F1014",
+    --gtBlue: "#3F53FE",
+    --gtGray: "#8D8D8D",
+    --gtDarkGray: "#3F3F3F",
+
+  }
+}
+
+@layer components {
+  .link {
+    @apply text-gtGray font-medium cursor-pointer hover:text-gtBlack;
+  }
+
+  .btn-sm {
+    @apply w-28 py-1 bg-gtBlue text-white;
+  }
+
+  .btn {
+    @apply px-9 py-3 bg-gtBlue text-white;
+  }
+
+  .inputbox {
+    @apply border-b-2 border-gtDarkGray py-3 focus:outline-none text-gtBlack;
+  }
+}
+
+body {
+  font-family: var(--hind);
+  color: var(--gtBlack);
+  font-weight: 500;
+}

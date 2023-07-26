@@ -1,0 +1,29 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../assets/img/matterhorn.jpg");
+}
+
+.thumbnail {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/img/matt-thumb.jpg");
+}
+
+.location {
+  background-size: cover;
+  background-position: center;
+
+  // background-image: linear-gradient(
+  //     to top,
+  //     rgba(15, 16, 20, 1) 0%,
+  //     rgba(15, 16, 20, 0) 100%
+  //   ),
+  //   url("../assets/img/labuan_bajo.jpg");
+}
