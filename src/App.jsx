@@ -1,4 +1,4 @@
-import { Layout } from "./layout/layout";
+import { Layout } from "./layout/Layout";
 import { Home } from "./components/Home";
 
 function App() {
